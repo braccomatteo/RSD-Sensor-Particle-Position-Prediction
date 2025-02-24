@@ -1,9 +1,9 @@
-# 🧪 Trajectory Analysis for Particle Position Detection  
+# Trajectory Analysis for Particle Position Detection  
 
-## 📖 Overview  
+## Overview  
 This project aims to develop a predictive model for estimating the (x, y) position of a particle passing through a **Resistive Silicon Detector (RSD) sensor** with 12 pads. Using **signal processing and multiple regression techniques**, we analyze sensor data to accurately determine particle trajectories.
 
-## 🛠️ Methodology  
+## Methodology  
 
 ### 🔹 **1. Data Preprocessing**  
 - The dataset includes **514,000 records** (training) and **385,500 records** (evaluation).  
@@ -24,7 +24,7 @@ This project aims to develop a predictive model for estimating the (x, y) positi
   - `max_depth`, `n_estimators`, `max_features`, and `criterion` (using Grid Search).  
   - Models trained using **hold-out validation** (80% train, 20% validation).  
 
-## 📊 Results  
+## Results  
 - **Best-performing model**: **Extra Trees Regression**  
   - **Average Euclidean Distance**: **4.589**  
   - **Optimal Hyperparameters**:  
