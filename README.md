@@ -1,5 +1,4 @@
 # 🧪 Trajectory Analysis for Particle Position Detection  
-**Using RSD Sensor Signals and Machine Learning**
 
 ## 📖 Overview  
 This project aims to develop a predictive model for estimating the (x, y) position of a particle passing through a **Resistive Silicon Detector (RSD) sensor** with 12 pads. Using **signal processing and machine learning techniques**, we analyze sensor data to accurately determine particle trajectories.
