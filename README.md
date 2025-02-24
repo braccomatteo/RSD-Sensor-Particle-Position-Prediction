@@ -33,9 +33,3 @@ This project aims to develop a predictive model for estimating the (x, y) positi
     - `criterion = 'friedman_mse'`  
 - **Random Forest achieved** a similar performance, but Extra Trees showed better generalization.  
 - **Key Features Identified**: `pmax`, `negpmax` (strongest predictors).  
-
-## 🚀 How to Run  
-### **1. Install Dependencies**
-Ensure you have Python and the required libraries installed:
-```bash
-pip install pandas numpy matplotlib scikit-learn
