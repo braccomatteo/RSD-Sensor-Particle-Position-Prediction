@@ -5,21 +5,21 @@ This project aims to develop a predictive model for estimating the (x, y) positi
 
 ## Methodology  
 
-### 🔹 **1. Data Preprocessing**  
+### **1. Data Preprocessing**  
 - The dataset includes **514,000 records** (training) and **385,500 records** (evaluation).  
 - Each record consists of **signal features from 18 sensor pads**.  
 - **Noise reduction & feature selection** performed using:
   - Outlier detection (distribution plots, correlation analysis).
   - Feature importance analysis.
 
-### 🔹 **2. Model Selection & Training**  
+### **2. Model Selection & Training**  
 - Multiple regression models were evaluated, including:
   - **Extra Trees Regression** 🌲
   - **Random Forest Regression** 🌳
   - Decision Trees, Bagging, and Linear Regression for comparison.
 - The best models were chosen based on **Adjusted R², MAE, and MSE** scores.
 
-### 🔹 **3. Hyperparameter Tuning**  
+### **3. Hyperparameter Tuning**  
 - **Key parameters optimized**:  
   - `max_depth`, `n_estimators`, `max_features`, and `criterion` (using Grid Search).  
   - Models trained using **hold-out validation** (80% train, 20% validation).  
